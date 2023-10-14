@@ -1,7 +1,6 @@
 import axios from 'axios';
-import { getEnvVariables } from '../helpers/getEnvVariables';
 
-const { VITE_API_URL } = getEnvVariables();
+const VITE_API_URL = "e-commerce-backend-production-74d1.up.railway.app/api";
 
 const ecommerceAPI = axios.create({
     baseURL: VITE_API_URL
