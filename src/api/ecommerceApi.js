@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const VITE_API_URL = "e-commerce-backend-production-74d1.up.railway.app/api";
+const VITE_API_URL = "https://e-commerce-backend-production-74d1.up.railway.app/api";
 
 const ecommerceAPI = axios.create({
     baseURL: VITE_API_URL
