@@ -7,7 +7,7 @@ import { useAuthStore } from '../hooks/useAuthStore';
 import { useForm } from '../hooks/useForm';
 import { CreateProduct } from './components/CreateProduct';
 import { UpdateProduct } from './components/UpdateProduct';
-import { Filters } from './components/Filters';
+// import { Filters } from './components/Filters';
 
 const productFormFields = {
   name: '',
@@ -44,7 +44,7 @@ export const EcommercePage = () => {
   } = useForm(productFormFields);
 
   const onLoginClick = () => {
-    navigate('/auth/');
+    navigate('/auth/login');
   };
 
   const onLogoutClick = () => {
@@ -180,7 +180,7 @@ export const EcommercePage = () => {
 
       <div className="row">
 
-        <Filters />
+        {/* <Filters /> */}
 
         <div className="col-md-9 mt-4">
           <div className="row">
