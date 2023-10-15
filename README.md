@@ -38,7 +38,7 @@ To get started with the project, ensure you have Node.js and npm installed. Then
    ```
    Create a file named .env at the root of your project.
    Add the following configuration to the .env file and replace the URL with the address of your backend server:
-   VITE_API_URL=http://localhost:host.com/api
+   VITE_API_URL=http://localhost:4000/api
 6. Configure Axios:
    Ensure that your project uses Axios for making HTTP requests.
    Then, configure Axios to use the server URL defined in the .env file. Modify the file that makes requests as follows:
